@@ -1,0 +1,30 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Product]
+       [dbo].[Brands]
+       [dbo].[Models]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       [dbo].[DF__Brands__CreateDa__47DBAE45] (Default Constraint)
+       [dbo].[DF__Models__CreateDa__48CFD27E] (Default Constraint)
+       [dbo].[DF__Product__CreateD__3C69FB99] (Default Constraint)
+       [dbo].[FK_Product_Models] (Foreign Key)
+       [dbo].[FK_Brands_Models] (Foreign Key)
+       [dbo].[FK_Product_SubCategory] (Foreign Key)
+       [dbo].[FK_SubCategory_Category] (Foreign Key)
+     Table rebuild
+       [dbo].[Product] (Table)
+       [dbo].[Brands] (Table)
+       [dbo].[Models] (Table)
+
+** Supporting actions
+
+The project and target databases have different collation settings. Deployment errors might occur.
+

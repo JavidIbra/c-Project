@@ -1,0 +1,21 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       [dbo].[Models]
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Drop
+       unnamed constraint on [dbo].[Models] (Default Constraint)
+     Table rebuild
+       [dbo].[Models] (Table)
+
+** Supporting actions
+
+If this deployment is executed, changes to [dbo].[Models] might introduce run-time errors in [dbo].[spGetProduct].
+The project and target databases have different collation settings. Deployment errors might occur.
+
